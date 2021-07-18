@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Calibri', monospace;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    margin: 0;
+    min-height: fit-content;
+    width: 100vw;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+section {
+    height: auto;
+    min-width: 40%;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.content {
+    height: auto;
+    width: 50%;
+    padding: 20px;
+    min-width: min-content;
+    background-color: #58a463;
+    float: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    margin: 20px 0;
+    font-family: 'Montserrat', monospace;
+    color: #fff;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 0 10%;
+}
+
+.card-container {
+    width: 80%;
+    margin: 40px 0;
+    min-width: min-content;
+    padding: 0 20px 20px 20px;
+    background-color: #f2f2f2;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+    margin: 20px;
+    max-width: max-content;
+}
+
+form {
+    display: block;
+    text-align: center;
+}
+
+input {
+    width: 94%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #999;
+    font-size: 1em;
+    color: #000;
+    text-align: left;
+}
+
+#dataform {
+    width: 100%;
+    display: flex;
+
+}
+
+#dataform p {
+    width: 100%;
+    margin: 10px;
+    font-size: 1em;
+    color: #000;
+    text-align: center;
+}
+
+.btsite {
+    margin: 10px 20px 20px 20px;
+    background-color: #ccc;
+    width: 67%; 
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #666;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btsite:hover {
+    background-color: #999;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.button {
+    margin: 20px;
+    background-color: #58a463;
+    width: 70%; 
+    border: 1px solid #58a463;
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #339935;
+    border: 1px solid #339935;
+    border-radius: 4px;
+    padding: 8px;
+    text-align: center;
+}
