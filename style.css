@@ -29,7 +29,6 @@ main {
 section {
     height: auto;
     min-width: 40%;
-
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
@@ -46,6 +45,34 @@ section {
     flex-flow: column;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media (max-width: 360px) {
+
+    main {
+        margin: 0;
+        min-height: fit-content;
+        width: 100vw;
+        background-image: url(bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    section {
+        height: auto;
+        width: 100%;
+    }
+    
+    .content {
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        min-width: min-content;
+        background-color: #58a463;
+        align-items: center;
+    }
 }
 
 h1 {
