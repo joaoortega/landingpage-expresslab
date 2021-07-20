@@ -63,6 +63,7 @@ section {
     section {
         height: auto;
         width: 100%;
+        align-items: center;
     }
     
     .content {
@@ -94,6 +95,7 @@ p {
     width: 80%;
     margin: 40px 0;
     min-width: min-content;
+    max-width: auto;
     padding: 0 20px 20px 20px;
     background-color: #f2f2f2;
     border-radius: 6px;
@@ -106,6 +108,7 @@ p {
 .logo {
     height: auto;
     width: 100%;
+    min-width: auto;
     margin: 20px;
     max-width: max-content;
 }
